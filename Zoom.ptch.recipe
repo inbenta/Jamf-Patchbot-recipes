@@ -10,19 +10,5 @@
 		<dict></dict>
 		<key>MinimumVersion</key>
 		<string>1.0.0</string>
-		<key>Process</key>
-		<array>
-			<dict>
-				<key>Arguments</key>
-				<dict>
-					<key>package</key>
-					<string>Zoom</string>
-					<key>patch</key>
-					<string>Zoom</string>
-					<key>delta</key>
-					<integer>0</integer>
-				</dict>
-			</dict>
-		</array>
 	</dict>
 </plist>
