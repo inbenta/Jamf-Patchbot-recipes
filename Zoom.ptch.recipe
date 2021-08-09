@@ -10,5 +10,17 @@
 		<dict></dict>
 		<key>MinimumVersion</key>
 		<string>1.0.0</string>
+		<key>Process</key>
+		<array>
+			<dict>
+				<key>Arguments</key>
+				<dict>
+					<key>delta</key>
+					<integer>0</integer>
+				</dict>
+				<key>Processor</key>
+				<string>Mock</string>
+			</dict>
+		</array>
 	</dict>
 </plist>
