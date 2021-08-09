@@ -22,6 +22,8 @@
 					<key>delta</key>
 					<integer>0</integer>
 				</dict>
+				<key>Processor</key>
+				<string>com.honestpuck.PatchBot/PatchManager</string>
 			</dict>
 		</array>
 	</dict>
