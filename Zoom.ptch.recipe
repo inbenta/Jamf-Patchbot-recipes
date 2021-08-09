@@ -22,8 +22,6 @@
 					<key>delta</key>
 					<integer>0</integer>
 				</dict>
-				<key>Processor</key>
-				<string>com.inbenta.PatchBot/PatchManager</string>
 			</dict>
 		</array>
 	</dict>
