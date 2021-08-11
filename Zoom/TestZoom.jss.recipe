@@ -8,24 +8,20 @@
 	<string>com.inbenta.jss.TestZoom</string>
 	<key>Input</key>
 	<dict>
+		<key>CATEGORY</key>
+		<string>Meetings</string>
+		<key>GROUP_NAME</key>
+		<string>Administrators</string>
+		<key>NAME</key>
+		<string>zoom.us</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>TestPolicy.xml</string>
-		<key>CATEGORY</key>
-		<string>Meetings</string>
-		<key>NAME</key>
-		<string>zoom.us</string>
-		<key>GROUP_NAME</key>
-		<string>Administrators</string>
-		<key>RELEASE</key>
-		<string>latest</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>The Zoom app provides cloud-hosted video conferencing, plus online meetings and group messaging.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>Zoom.png</string>
-    <key>USER_AGENT</key>
-		<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/536.28.10 (KHTML, like Gecko) Version/6.0.3 Safari/536.28.10</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.1</string>
@@ -38,6 +34,15 @@
 			<dict>
 				<key>category</key>
 				<string>%CATEGORY%</string>
+				<key>groups</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>%GROUP_NAME%</string>
+						<key>smart</key>
+						<false/>
+					</dict>
+				</array>
 				<key>policy_category</key>
 				<string>%POLICY_CATEGORY%</string>
 				<key>policy_template</key>
@@ -48,16 +53,6 @@
 				<string>%SELF_SERVICE_DESCRIPTION%</string>
 				<key>self_service_icon</key>
 				<string>%SELF_SERVICE_ICON%</string>
-				<key>groups</key>
-				<array>
-					<dict>
-						<key>name</key>
-						<string>%GROUP_NAME%</string>
-						<key>smart</key>
-						<false/>
-					</dict>
-				</array>
-				
 			</dict>
 			<key>Processor</key>
 			<string>JSSImporter</string>
