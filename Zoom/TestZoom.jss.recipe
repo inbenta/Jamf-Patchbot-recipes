@@ -8,12 +8,12 @@
 	<string>com.inbenta.jss.TestZoom</string>
 	<key>Input</key>
 	<dict>
+		<key>POLICY_CATEGORY</key>
+		<string>Testing</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>TestPolicy.xml</string>
 		<key>CATEGORY</key>
 		<string>Meetings</string>
-		<key>POLICY_CATEGORY</key>
-		<string>%POLICY_CATEGORY%</string>
-		<key>POLICY_TEMPLATE</key>
-		<string>%POLICY_TEMPLATE%</string>
 		<key>NAME</key>
 		<string>zoom.us</string>
 		<key>GROUP_NAME</key>
