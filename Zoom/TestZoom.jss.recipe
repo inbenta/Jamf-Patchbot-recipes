@@ -9,15 +9,15 @@
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>%CATEGORY%</string>
+		<string>Meetings</string>
 		<key>POLICY_CATEGORY</key>
 		<string>%POLICY_CATEGORY%</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>%POLICY_TEMPLATE%</string>
 		<key>NAME</key>
-		<string>%NAME%</string>
+		<string>zoom.us</string>
 		<key>GROUP_NAME</key>
-		<string>%GROUP_NAME%</string>
+		<string>Administrators</string>
 		<key>RELEASE</key>
 		<string>latest</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
