@@ -3,7 +3,7 @@
 <plist version="1.0">
 	<dict>
 		<key>Description</key>
-		<string>Move Zoom package into production</string>
+		<string>Move Zoom package from testing to production</string>
 		<key>Identifier</key>
 		<string>com.inbenta.prod.Zoom</string>
 		<key>Input</key>
